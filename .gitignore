@@ -1,0 +1,18 @@
+# Distribution / packaging
+dist/
+
+# User-specific stuff:
+.idea/
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Config
+settings.py
+settings_test.py
+
+# Log files
+log/*
+

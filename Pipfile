@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "~=5.0"
+pytest-cov = "~=2.7"
+
+
+[packages]
+requests = "~=2.22"
+fastapi = "~=0.60"
+uvicorn = "~=0.11.0" # when going up to 0.12 we should install websockets manually
+
+
+[requires]
+python_version = "3.7"
