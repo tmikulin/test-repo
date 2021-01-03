@@ -1,6 +1,6 @@
 #!/bin/bash
 
-APP_ENV=$PWD/.ci-app-env
+APP_ENV=$PWD/ci-jobs/test-repo/.ci-app-env
 if [ -d $APP_ENV ] ; then
   rm -rf $APP_ENV
 fi
